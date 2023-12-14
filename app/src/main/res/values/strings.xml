@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviesManager</string>
+    <string name="nome">Nome:</string>
+    <string name="releaseYear">Data de Lançamento:</string>
+    <string name="studio">Estúdio:</string>
+    <string name="duration">Duração:</string>
+    <string name="note">Avaliação:</string>
+    <string name="gender">Gênero:</string>
+    <string name="flag">Assitido</string>
+    <string name="salvar">Salvar</string>
+</resources>
