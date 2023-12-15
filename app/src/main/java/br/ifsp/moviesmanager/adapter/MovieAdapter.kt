@@ -25,6 +25,8 @@ class MovieAdapter():
     }
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         holder.nomeVH.text = moviesLista[position].nome
+        holder.genderVH.text = moviesLista[position].gender
+        holder.durationVH.text = moviesLista[position].duration
         holder.noteVH.text = moviesLista[position].note
     }
     override fun getItemCount(): Int {
@@ -33,6 +35,8 @@ class MovieAdapter():
     inner class MovieViewHolder(view:MovieCelulaBinding): RecyclerView.ViewHolder(view.root)
     {
         val nomeVH = view.name
+        val genderVH = view.gender
+        val durationVH = view.duration
         val noteVH = view.note
     }
 }
